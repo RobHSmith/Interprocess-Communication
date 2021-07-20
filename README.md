@@ -13,3 +13,5 @@ CheckKey ensures that the key for a vector corresponds to data. I prefer to run 
 GetLight returns a specific vector by calling the key.
 
 Cycle is a more general GetLight and returns all the data from the shared memory by building an unordered_map with the data and keys. 
+
+This class can be modified to run with matrices if the Eigen library is included.
